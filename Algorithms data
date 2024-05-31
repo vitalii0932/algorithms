@@ -1,0 +1,43 @@
+Linear search:
+    Worst case time complexity - O(n)
+    Memory costs - O(n)
+
+    Algorithm principle
+    1) Set the initial value of the index (denote it by i) equal to the index of the first
+    element in the sequence.
+    2) Get the element standing at the index n[i]. Two cases are possible:
+        (a)The key of the element is equal to the element sought. Return the index and terminate the algorithm. Search
+        is successful.
+        b)The element key is not equal to the search item. Increase the index by one. i=i+1. Go to
+        point 3.
+
+    3) Check if the index is less than or equal to the index of the last element in the
+    of the sequence. If yes, go to step 2. If no, terminate the algorithm.
+    The search has failed.
+
+Interpolation search:
+    Worst case time complexity - O(n)
+
+    Algorithm principle
+    The algorithm is based on interpolation of the dependence of a sequence element on the value of its index.
+    the value of its index. The obtained interpolation dependence is used to be able to
+    to predict the location of the element. As with binary search, the search area
+    decreases with each step. Binary search reduces the search area always by a factor of two. В
+    well chosen interpolating dependency, the search area shrinks faster, while a poorly chosen interpolating dependency shrinks faster.
+    at the same time, a poorly chosen interpolation dependence can cause the search area to drop
+    efficiency to linear.
+    In the general case, creating an interpolation dependence, although possible, is difficult.
+    difficult. A much simpler and more efficient method is to use
+    search in a sorted sequence.
+
+    1) The sequence to be searched is sorted. If the sequence
+    is already sorted, this step can be skipped.
+    2) Select the first and the last element of the sequence as the starting points (left and right).
+    of the sequence.
+    3) The index value is determined using the linear interpolation formula. We get the element by
+    by this index. The obtained element is compared with the sought element. There are different cases of :
+        a) The element is equal to the sought element. Finish the algorithm. The search is successful.
+        b) The element is greater than the sought element. Move the right point. The new value (the found index is 1).
+        c) The element is less than the one you are looking for. Move the left point. New value (found index +1).
+    4) Repeat step 3 until the element is found or the search interval is empty.
+    interval for the search.

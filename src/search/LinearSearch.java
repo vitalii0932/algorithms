@@ -1,3 +1,5 @@
+package search;
+
 import java.util.HashMap;
 
 public class LinearSearch {
