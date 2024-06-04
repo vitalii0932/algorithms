@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a403f65-a537-4c25-a298-fe5ad63f19ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/search/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/search/TernarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms data" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms data" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,7 @@
     "Application.InterpolationSearch.executor": "Run",
     "Application.LinearSearch.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.TernarySearch.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -99,7 +101,8 @@
       <updated>1717090521631</updated>
       <workItem from="1717090522674" duration="1311000" />
       <workItem from="1717152545300" duration="1037000" />
-      <workItem from="1717231784458" duration="1281000" />
+      <workItem from="1717231784458" duration="1613000" />
+      <workItem from="1717493529077" duration="607000" />
     </task>
     <servers />
   </component>
